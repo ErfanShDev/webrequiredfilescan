@@ -153,6 +153,6 @@ urlgetuser = input("Plase Your Web Site Target + https:// Ya http://  : ")
 for cm in search:
     requestus = requests.get(urlgetuser+"/"+cm)
     if requestus.status_code == 200:
-        print(Fore.GREEN+" [*]"+ Fore.WHITE+" Page Ok "+urlgetuser+"/"+cm + FORE.GREEN+ "[*]" )
+        print(Fore.GREEN+" [*]"+ Fore.WHITE+" Page Ok "+urlgetuser+"/"+cm + FORE.GREEN+ " [*]" )
     else:
-        print(Fore.RED+" [*]"+Fore.WHITE+" Page Not Ok "+urlgetuser+"/"+cm + Fore.RED + "[*]")
+        print(Fore.RED+" [*]"+Fore.WHITE+" Page Not Ok "+urlgetuser+"/"+cm + Fore.RED + " [*]")
