@@ -10,7 +10,7 @@ init()
 
 print(Fore.RED +" [*] Id Telgram Me :" + Fore.WHITE + "  @ERFAN_0909")
 slppr = time.sleep(1)
-print(Fore.RED +" [*] Id GitHub Me :" + Fore.WHITE + "   ErfanDev")
+print(Fore.RED +" [*] Id GitHub Me :" + Fore.WHITE + "   ErfanShDev")
 slppr = time.sleep(1)
 print(Fore.RED +" [*] Language Programer :" + Fore.WHITE + " Python")
 
